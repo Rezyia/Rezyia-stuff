@@ -13,6 +13,7 @@ I suppose :
 -	Need [apr](https://apr.apache.org/download.cgi) and [apr-util](https://apr.apache.org/download.cgi)
 -	Need [httpd](https://httpd.apache.org/download.cgi#apache24)
 
+How to decompress :
 + use : gzip -d xxxx.tar.gz
 + use : xvf xxxx.tar
 
