@@ -40,7 +40,7 @@ mv ./apr-util-x.x.x/ ./httpd-x.x.xx/srclib/apr-util		(or cp)
 
 cd ./httpd-x.x.xx
 ./configure –with-included-apr –with-included-apr-util –with-pcre=/usr/local/bin/pcre-config –with-pcre-dir=/tmp/pcre
-sudo make						(by default in /usr/local/apache2)
+sudo make						        (by default in /usr/local/apache2)
 sudo make install
 ```
 
