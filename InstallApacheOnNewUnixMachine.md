@@ -17,24 +17,24 @@ I suppose :
 + use : xvf xxxx.tar
 
 
-Suppose a directory with : 						(versions used :)
-./httpd-x.x.xx						            (httpd-2.4.46)
-./pcre-x.xx						                (pcre-8.42)
-./apr-x.x.x						                (arp-1.7.0)
-./apr-util-x.x.x						          (arp-util-1.6.1)
+Suppose a directory with : 		(versions used :)
+./httpd-x.x.xx				(httpd-2.4.46)
+./pcre-x.xx				(pcre-8.42)
+./apr-x.x.x				(arp-1.7.0)
+./apr-util-x.x.x                        (arp-util-1.6.1)
 
 ***
 
 ```
 cd ./pcre-x.xx/
-./configure						                                (by default in /usr/local/bin)
+./configure                                                     (by default in /usr/local/bin)
 sudo make
 sudo make install
 
 cd ..
-cp -r ./pcre-x.xx/ /tmp/pcre				                  (or mv)
+cp -r ./pcre-x.xx/ /tmp/pcre                                    (or mv)
 
-mv ./apr-x.x.x/ ./httpd-x.x.xx/srclib/apr			        (or cp)
+mv ./apr-x.x.x/ ./httpd-x.x.xx/srclib/apr		        (or cp)
 mv ./apr-util-x.x.x/ ./httpd-x.x.xx/srclib/apr-util		(or cp)
 
 cd ./httpd-x.x.xx
