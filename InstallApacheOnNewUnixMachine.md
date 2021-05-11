@@ -16,12 +16,13 @@ I suppose :
 + use : gzip -d xxxx.tar.gz
 + use : xvf xxxx.tar
 
-
+```
 Suppose a directory with : 		(versions used :)
 ./httpd-x.x.xx				(httpd-2.4.46)
 ./pcre-x.xx				(pcre-8.42)
 ./apr-x.x.x				(arp-1.7.0)
 ./apr-util-x.x.x                        (arp-util-1.6.1)
+```
 
 ***
 
