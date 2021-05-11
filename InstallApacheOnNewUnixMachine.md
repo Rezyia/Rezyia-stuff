@@ -2,12 +2,14 @@
 
 ***
 
-I suppose :
+### I suppose :
 - apt up to date (`sudo apt update`)
 - build esssential installed (for GCC) (`sudo apt install build-essential` + `sudo apt-get install manpages-dev`)
 - You need to be root or have root access (pretty obvious though)
 
 ***
+
+### Downloads :
 
 -	Need [pcre](https://ftp.pcre.org/pub/pcre/) ( DO NOT USE pcre2-xx.xx : pcre2 still doesn't work for it on this May 11th 2021 )
 -	Need [apr](https://apr.apache.org/download.cgi) and [apr-util](https://apr.apache.org/download.cgi)
@@ -15,9 +17,13 @@ I suppose :
 
 (I recommend downloading with the .tar.gz extension)
 
-How to decompress :
+### How to decompress :
 + use : gzip -d xxxx.tar.gz
 + use : xvf xxxx.tar
+
+***
+
+### Structure used :
 
 ```
 Suppose a directory with : 		(versions used :)
@@ -28,6 +34,8 @@ Suppose a directory with : 		(versions used :)
 ```
 
 ***
+
+### Commands used :
 
 ```
 cd ./pcre-x.xx/
