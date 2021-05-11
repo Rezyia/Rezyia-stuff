@@ -1,4 +1,4 @@
-##I didn't find any good guide to help me setup Apache2 on my new Ubuntu VM so here's what I did :
+## I didn't find any good guide to help me setup Apache2 on my new Ubuntu VM so here's what I did :
 
 ***
 
